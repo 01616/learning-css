@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .list{
+            background-color: darkcyan;
+            padding: 20px;
+        }
+        .list ul{
+            list-style-type: none;
+        }
+        .list li{
+            font-size: 1.2rem;
+            color: tomato;
+        }
+        .list li::before{
+            content: '/f058';
+            font-family: 'font awesome 5 free';
+            font-weight: bold;
+        }
+        /*.list ul{
+            list-style-type: circle;
+            list-style-position: inside;
+            list-style-image:url(tick.png) ;
+        }*/
+    </style>
+</head>
+<body>
+    <div class="list">
+        <ul><li>html</li>
+            <li>css</li>
+            <li>c++</li>
+            <li>java</li>
+        </ul>
+    </div>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .manu{
+            background-color: aqua;
+            display: flex;
+            justify-content: flex-end;
+        }
+        .manu a{
+            text-decoration: none;
+            padding: 20px;
+            color: white;
+
+        }
+        .manu a:hover{
+            background-color: grey;
+        }
+        @media screen and (max-width: 600px){
+            .manu{
+                flex-direction: column;
+            }
+            .manu a{
+                background-color: indigo;
+                margin: 10px 0px;
+                text-align: center;
+                border-radius: 10px;
+
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="manu">
+        <a href="#">home</a>
+    <a href="#">home</a>
+    <a href="#">home</a>
+    <a href="#">home</a>
+    <a href="#">home</a>
+    </div>
+</body>
+</html>

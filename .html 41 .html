@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+*{
+    box-sizing: border-box;
+}
+.header{
+    background-color: coral;
+    text-align: center;
+    padding: 5px 5px;
+    color: white;
+    
+}
+.nevbar{
+    background-color: darkcyan;
+
+padding: 5px 5px;
+}
+.nevbar a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 10px;
+    display: block; 
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px 0px;
+}
+.nevbar a:hover{
+    color:black;
+    border: double;
+    background-color: aqua;
+}
+.main{
+
+    background-color: aqua;
+    padding: 5px 5px;
+}
+.aside{
+    background-color: darkcyan;
+    padding: 5px 5px;
+    text-align: center;
+}
+.footer{
+    background-color: black;
+    text-align: center;
+    padding: 10px 5px;
+    color: wheat;
+}
+@media only screen and (max-width: 992px) {
+    /* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+}
+
+@media only screen and (max-width: 500px){
+/* For tablet: */
+.col-s-1 {width: 8.33%;}
+.col-s-2 {width: 16.66%;}
+.col-s-3 {width: 25%;}
+.col-s-4 {width: 33.33%;}
+.col-s-5 {width: 41.66%;}
+.col-s-6 {width: 50%;}
+.col-s-7 {width: 58.33%;}
+.col-s-8 {width: 66.66%;}
+.col-s-9 {width: 75%;}
+.col-s-10 {width: 83.33%;}
+.col-s-11 {width: 91.66%;}
+.col-s-12 {width: 100%;}
+
+}
+
+
+[class*="col-"]{
+    float: left;
+    padding: 10px;
+}
+.row:after{
+    content: '';
+    clear: both;
+    display:table;
+}
+@media only screen and (max-width: 400px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>sadia sultna</h1>
+    </div>
+  <div class="row">
+  
+<div class="nevbar col-2 col-s-3">
+    <a href="#">home</a>
+    <a href="#">menu</a>
+    <a href="#">about me</a>
+</div>
+<div class="main col-7 col-s-9">
+    <h2>i am a wab designer</h2>
+    <p>Diam dolore dLabore no at et diam clita, et ipsum consetetur nonumy takimata et amet. Dolore erat rebum eirmod diam et sed voluptua et. Eos sit gubergren et sit justo et magna clita sadipscing. Voluptua aliquyam et erat tempor, sit sit ea sadipscing magna. Sit sed sit amet sit, erat justo dolores.olor voluptua lorem kasd ea accusam. Diam et duo magna no erat erat. Vero amet clita no sed tempor sadipscing magna dolore kasd. Labore sea ut nonumy eirmod duo justo consetetur invidunt. Stet est dolores eirmod lorem elitr et kasd diam, dolor labore sed ipsum lorem lorem sit.Sanctus dolor ea elitr aliquyam labore sea et sadipscing. Invidunt aliquyam duo ipsum aliquyam, erat ipsum et clita erat lorem.</p>
+<p>Duo sit sanctus ipsum voluptua est sea lorem diam. Eirmod clita et amet diam, no labore nonumy dolor sadipscing erat.Lorem et dolor amet gubergren sadipscing consetetur eos, takimata et rebum dolore ut sed ut lorem. Aliquyam sed stet sadipscing est, amet sea voluptua sadipscing diam nonumy lorem amet. Est vero sea voluptua diam eirmod. Aliquyam gubergren gubergren diam sanctus diam lorem stet eos clita, dolor aliquyam duo takimata justo.</p>
+<p>Erat dolores ut At est aliquyam rebum lorem sit erat rebum et. No justo tempor magna dolore accusam duo amet, lorem dolor eirmod sit sadipscing ipsum. Ea nonumy sed voluptua labore ipsum sea diam, dolor stet dolore duo lorem est lorem, et sit est ea gubergren, aliquyam gubergren invidunt duo ipsum invidunt sit erat diam. Sit stet sit at stet erat accusam accusam et, eirmod dolor ut dolor tempor ipsum. Tempor at ipsum.diam dolor duo accusam sit dolores takimata. Sed lorem et ea amet ut sit, et elitr ipsum diam gubergren eos et lorem tempor stet. Magna no ut.</p>
+</div>
+<div class="aside col-3 col-s-12">
+<h2>what i love</h2>    
+<p>Ipsum tempor rebum ipsum dolore kasd dolor kasd tempor, invidunt.</p>
+<h2>what i love</h2>    
+<p>Ipsum tempor rebum ipsum dolore kasd dolor kasd tempor, invidunt.</p>
+<h2>what i love</h2>    
+<p>Ipsum tempor rebum ipsum dolore kasd dolor kasd tempor, invidunt.</p>
+<h2>what i love</h2>    
+<p>Ipsum tempor rebum ipsum dolore kasd dolor kasd tempor, invidunt.</p>
+
+</div>
+  </div>
+<div class="footer">
+    &copy;study with anis
+</div>
+</body>
+</html>

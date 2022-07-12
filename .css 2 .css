@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: azure;
+    padding: 20px;
+
+}
+
+.con{
+    width:100%;
+    color:brown;}
+.im{
+    width: 100px;
+    height: 100px;
+    border: 2px;
+    border-color: black;
+    border-radius: 50%;
+    float: left;
+}
+
+#hg{
+    text-align: center;
+    
+    
+
+}
+h1,h2,h3,h4,h5,h6{
+    color: brown;
+}
+
+.id{
+   float: right;
+    color: brown;
+    
+}
+.id a{
+    text-decoration: none;
+    color: black;
+    width: 30px;}
+
+.id a:hover{
+    text-decoration: underline;
+    color: crimson;
+    }
+    .clear{
+        clear: both;
+    }
+    hr{
+        text-decoration: overline;
+        width: 100%;
+        color: black solid 2px;
+        border-bottom: 0cm;
+        margin: 10px auto;
+}

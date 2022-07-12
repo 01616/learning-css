@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tooltip & overflow</title>
+    <style>
+        div{
+            height: 200px;
+            width: 200px;
+            background-color: blueviolet;
+            border: 1px solid red;
+            overflow:auto;
+        }
+        .toltip{
+            position: relative;
+        }
+        .toltip .text{
+            visibility: hidden;
+            width: 150px;
+            background-color: indigo;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            position: absolute;
+            top: 30px;
+            left: 30px;
+            z-index: 1;
+        }
+        .toltip:hover .text{
+            visibility: visible;
+        }
+        
+    </style>
+</head>
+<body>
+    <a href="h" class="toltip">facebool
+<span class="text">facebook is a social midia</span>
+
+    </a>
+    <br>
+    <div>Erat magna et consetetur sed erat, no duo rebum aliquyam consetetur. Duo aliquyam sadipscing ea magna sit invidunt takimata kasd, labore sanctus magna dolor erat invidunt sanctus sanctus, sit voluptua elitr et dolor dolore eirmod, ut sed diam consetetur dolores at, diam ipsum et sea sit sed. Stet eirmod no.Clita ipsum erat sit lorem sit. Aliquyam lorem amet elitr clita est, rebum voluptua duo at tempor aliquyam vero et..</div>
+</body>
+</html>
